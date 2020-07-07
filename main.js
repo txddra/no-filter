@@ -40,14 +40,14 @@ const shortNamesOnly = function (arr) {
 
 /*-----*/
 
-const dNames = function (arr) {
-  let dsOnly = [];
-  for (const names of arr) {
-    if (names.startsWith('D')) {
-      dsOnly.push(names)
+const dNames = function (pimps) {
+  let pimpsOnly = [];
+  for (const pimp of pimps) {
+    if (pimp.startsWith('D')) {
+      pimpsOnly.push(pimp)
     }
 
-  } return dsOnly
+  } return pimpsOnly
 }
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
