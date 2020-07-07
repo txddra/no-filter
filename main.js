@@ -2,17 +2,26 @@
  * YOUR CODE HERE *
  ******************/
 
-const onlyOdds= function(arr){
-  newArr = [];
-  for(const nums of arr){
-    if(nums % 2 === 1){
+const onlyOdds = function (arr) {
+  let newArr = [];
+  for (const nums of arr) {
+    if (nums % 2 === 1) {
       newArr.push(nums)
     }
-  }return newArr
+  } return newArr
 
 }
 
 
+/*-----*/
+const onlyEvens = function (arr) {
+  let newArr = [];
+  for (const nums of arr) {
+    if (nums % 2 === 0) {
+      newArr.push(nums)
+    }
+  } return newArr
+}
 
 
 /*********************************
