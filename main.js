@@ -25,28 +25,28 @@ const onlyEvens = function (arr) {
 
 
 /*-----*/
-const shortNamesOnly = function(arr){
+const shortNamesOnly = function (arr) {
   let shortNames = [];
-  for(const names of arr){
-    if(names.length < 7){
+  for (const names of arr) {
+    if (names.length < 7) {
       shortNames.push(names);
 
     }
-    
+
   }
-return shortNames;
+  return shortNames;
 }
-  
+
 
 /*-----*/
 
-const dNames = function(arr){
+const dNames = function (arr) {
   let dsOnly = [];
-  for(const names of arr){
-  if(names.startsWith('D')){
-dsOnly.push(names)
-  }
- 
+  for (const names of arr) {
+    if (names.startsWith('D')) {
+      dsOnly.push(names)
+    }
+
   } return dsOnly
 }
 /*********************************
